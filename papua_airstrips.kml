@@ -1,0 +1,2814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1">
+        <Style id="stylesel_1">
+            <IconStyle id="substyle_3">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_1">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="substyle_2">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+            <BalloonStyle>
+                <text>$[description]</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Style id="stylesel_0">
+            <IconStyle id="substyle_1">
+                <color>ff90ee90</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_0">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="substyle_0">
+                <color>ff90ee90</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+            <BalloonStyle>
+                <text>$[description]</text>
+                <displayMode>default</displayMode>
+            </BalloonStyle>
+        </Style>
+        <Placemark id="feat_2">
+            <name>ALA</name>
+            <description>Name: Alama
+Elev: 3050'
+Slope: 8%
+Approach Rwy: 03/--
+Length: 438 m
+Width: 25 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_0">
+                <coordinates>137.8912,-4.2647,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3">
+            <name>AMZ</name>
+            <description>Name: Amazu
+Elev: 50'
+Slope: 0%
+Approach Rwy: 12/30
+Length: 600 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_1">
+                <coordinates>139.6225,-5.6115,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_4">
+            <name>AGI</name>
+            <description>Name: Anggi
+Elev: 6100'
+Slope: 3%
+Approach Rwy: 26/--
+Length: 527 m
+Width: 28 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_2">
+                <coordinates>133.8738,-1.3867,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_5">
+            <name>ANG</name>
+            <description>Name: Angguruk
+Elev: 4500'
+Slope: 5%
+Approach Rwy: 09/--
+Length: 485 m
+Width: 27 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_3">
+                <coordinates>139.4328,-4.2005,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_6">
+            <name>APA</name>
+            <description>Name: Apahapsili
+Elev: 2850'
+Slope: 4%
+Approach Rwy: 17/--
+Length: 820 m
+Width: 24 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_4">
+                <coordinates>139.3108,-3.8825,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_7">
+            <name>ARS</name>
+            <description>Name: Arsbol
+Elev: 2500'
+Slope: 2%
+Approach Rwy: 24/--
+Length: 520 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_5">
+                <coordinates>138.9372,-3.6942,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_8">
+            <name>AWI</name>
+            <description>Name: Awimbon
+Elev: 400'
+Slope: 0%
+Approach Rwy: 31/--
+Length: 520 m
+Width: 34 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_6">
+                <coordinates>140.379,-5.1662,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_9">
+            <name>BAB</name>
+            <description>Name: Babo
+Elev: 10'
+Slope: 1%
+Approach Rwy: 03/21
+Length: 1300 m
+Width: 31 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_7">
+                <coordinates>133.4368,-2.5368,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_10">
+            <name>BDE</name>
+            <description>Name: Bade
+Elev: 20'
+Slope: 0%
+Approach Rwy: 02/20
+Length: 600 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_8">
+                <coordinates>139.5832,-7.1758,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_11">
+            <name>BRI</name>
+            <description>Name: Bari
+Elev: 1400'
+Slope: 10%
+Approach Rwy: 26/--
+Length: 445 m
+Width: 29 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_9">
+                <coordinates>139.9008,-3.9605,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_12">
+            <name>BAT</name>
+            <description>Name: Batom
+Elev: 300'
+Slope: 0%
+Approach Rwy: 07/25
+Length: 743 m
+Width: 23 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_10">
+                <coordinates>140.8825,-4.4428,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_13">
+            <name>BMS</name>
+            <description>Name: Beimes
+Elev: 500'
+Slope: 0%
+Approach Rwy: 03/--
+Length: 480 m
+Width: 27 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_11">
+                <coordinates>133.6317,-1.617,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_14">
+            <name>BNW</name>
+            <description>Name: Benawa
+Elev: 240'
+Slope: 0%
+Approach Rwy: 16/34
+Length: 535 m
+Width: 31 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_12">
+                <coordinates>139.7552,-3.729,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_15">
+            <name>BEO</name>
+            <description>Name: Beoga
+Elev: 5600'
+Slope: 12%
+Approach Rwy: 16/--
+Length: 566 m
+Width: 25 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_13">
+                <coordinates>137.4247,-3.8162,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_16">
+            <name>WABB</name>
+            <description>Name: Biak
+Elev: 46'
+Slope: 0%
+Approach Rwy: 11/29
+Length: 3570 m
+Width: 45 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_14">
+                <coordinates>136.11,-1.192,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_17">
+            <name>BIA</name>
+            <description>Name: Bias
+Elev: 410'
+Slope: 2%
+Approach Rwy: 10/28
+Length: 500 m
+Width: 26 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_15">
+                <coordinates>140.8203,-3.9997,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_18">
+            <name>BIL</name>
+            <description>Name: Bilogai
+Elev: 6950'
+Slope: 0%
+Approach Rwy: 09/27
+Length: 838 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_16">
+                <coordinates>137.0312,-3.74,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_19">
+            <name>BIM</name>
+            <description>Name: Bime
+Elev: 4150'
+Slope: 10%
+Approach Rwy: 17/--
+Length: 536 m
+Width: 26 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_17">
+                <coordinates>140.2185,-4.487,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_20">
+            <name>BNA</name>
+            <description>Name: Bina
+Elev: 4950'
+Slope: 14%
+Approach Rwy: 21/--
+Length: 440 m
+Width: 14 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_18">
+                <coordinates>137.73,-3.705,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_21">
+            <name>BIN</name>
+            <description>Name: Bintuni
+Elev: 10'
+Slope: 0%
+Approach Rwy: 13/31
+Length: 990 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_19">
+                <coordinates>133.5173,-2.1037,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_22">
+            <name>BOB</name>
+            <description>Name: Bobkamu
+Elev: 4400'
+Slope: 17%
+Approach Rwy: 11/--
+Length: 385 m
+Width: 16 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_20">
+                <coordinates>140.264,-4.4643,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_23">
+            <name>BOG</name>
+            <description>Name: Bogobaida
+Elev: 5300'
+Slope: 2%
+Approach Rwy: 09/27
+Length: 690 m
+Width: 28 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_21">
+                <coordinates>136.4138,-3.719,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_24">
+            <name>BOK</name>
+            <description>Name: Bokondini
+Elev: 4150'
+Slope: 5%
+Approach Rwy: 27/--
+Length: 853 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_22">
+                <coordinates>138.6767,-3.6862,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_25">
+            <name>BOM</name>
+            <description>Name: Boma
+Elev: 50'
+Slope: 0%
+Approach Rwy: 16/34
+Length: 800 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_23">
+                <coordinates>139.8658,-5.8082,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_26">
+            <name>BML</name>
+            <description>Name: Bomela
+Elev: 4500'
+Slope: 6%
+Approach Rwy: 02/--
+Length: 460 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_24">
+                <coordinates>139.912,-4.694,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_27">
+            <name>BOR</name>
+            <description>Name: Borme
+Elev: 2800'
+Slope: 10%
+Approach Rwy: 23/--
+Length: 640 m
+Width: 23 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_25">
+                <coordinates>140.4353,-4.3957,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_28">
+            <name>BGL</name>
+            <description>Name: Bugalaga
+Elev: 5700'
+Slope: 15%
+Approach Rwy: 24/--
+Length: 498 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_26">
+                <coordinates>136.5965,-3.6233,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_29">
+            <name>CAT</name>
+            <description>Name: Catubouw
+Elev: 4700'
+Slope: 3%
+Approach Rwy: 14/--
+Length: 400 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_27">
+                <coordinates>133.8083,-1.206,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_30">
+            <name>DAB</name>
+            <description>Name: Dabera
+Elev: 200'
+Slope: 3%
+Approach Rwy: 24/--
+Length: 600 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_28">
+                <coordinates>138.614,-3.2703,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_31">
+            <name>DBT</name>
+            <description>Name: Daboto
+Elev: 2300'
+Slope: 9%
+Approach Rwy: 24/--
+Length: 430 m
+Width: 14 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_29">
+                <coordinates>136.4102,-3.2953,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_32">
+            <name>DAD</name>
+            <description>Name: Dadou
+Elev: 4300'
+Slope: 18%
+Approach Rwy: 36/--
+Length: 330 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_30">
+                <coordinates>136.0622,-3.6873,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_33">
+            <name>DAG</name>
+            <description>Name: Dagai
+Elev: 300'
+Slope: 4%
+Approach Rwy: 20/--
+Length: 655 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_31">
+                <coordinates>137.9435,-3.3053,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_34">
+            <name>DGB</name>
+            <description>Name: Dagi Baru
+Elev: 5100'
+Slope: 19%
+Approach Rwy: 15/--
+Length: 420 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_32">
+                <coordinates>139.6273,-4.5305,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_35">
+            <name>DNM</name>
+            <description>Name: Danime
+Elev: 6500'
+Slope: 10%
+Approach Rwy: 23/--
+Length: 621 m
+Width: 21 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_33">
+                <coordinates>138.6778,-3.8858,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_36">
+            <name>DAW</name>
+            <description>Name: Danowage
+Elev: 220'
+Slope: 0%
+Approach Rwy: 16/34
+Length: 820 m
+Width: 16 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_34">
+                <coordinates>140.0175,-5.2125,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_37">
+            <name>DAR</name>
+            <description>Name: Darakma
+Elev: 5700'
+Slope: 9%
+Approach Rwy: 30/--
+Length: 568 m
+Width: 29 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_35">
+                <coordinates>138.3315,-4.2423,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_38">
+            <name>DEK</name>
+            <description>Name: Dekai
+Elev: 150'
+Slope: 0%
+Approach Rwy: 07/25
+Length: 1000 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_36">
+                <coordinates>139.4822,-4.8558,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_39">
+            <name>DEP</name>
+            <description>Name: Derapos
+Elev: 400'
+Slope: 0%
+Approach Rwy: 30/--
+Length: 825 m
+Width: 34 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_37">
+                <coordinates>137.2252,-2.975,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_40">
+            <name>DRW</name>
+            <description>Name: Dirouw
+Elev: 350'
+Slope: 1%
+Approach Rwy: 15/33
+Length: 500 m
+Width: 15 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_38">
+                <coordinates>137.0727,-3.052,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_41">
+            <name>DOF</name>
+            <description>Name: Doufu
+Elev: 400'
+Slope: 5%
+Approach Rwy: 27/--
+Length: 562 m
+Width: 16 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_39">
+                <coordinates>137.2527,-3.1753,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_42">
+            <name>DOB</name>
+            <description>Name: Doyo Baru
+Elev: 350'
+Slope: 0%
+Approach Rwy: 12/30
+Length: 520 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_40">
+                <coordinates>140.464,-2.5385,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_43">
+            <name>DUL</name>
+            <description>Name: Dules
+Elev: 700'
+Slope: 3%
+Approach Rwy: 10/--
+Length: 502 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_41">
+                <coordinates>140.662,-4.0753,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_44">
+            <name>DUM</name>
+            <description>Name: Duma
+Elev: 4400'
+Slope: 10%
+Approach Rwy: 08/--
+Length: 320 m
+Width: 25 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_42">
+                <coordinates>136.7122,-4.0735,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_45">
+            <name>DUR</name>
+            <description>Name: Duram
+Elev: 6870'
+Slope: 12%
+Approach Rwy: 27/--
+Length: 510 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_43">
+                <coordinates>139.6182,-4.4732,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_46">
+            <name>EPB</name>
+            <description>Name: Eipobaru
+Elev: 5700'
+Slope: 8%
+Approach Rwy: 19/--
+Length: 470 m
+Width: 26 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_44">
+                <coordinates>140.0252,-4.4558,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_47">
+            <name>EIP</name>
+            <description>Name: Eipomek
+Elev: 5450'
+Slope: 10%
+Approach Rwy: 18/--
+Length: 390 m
+Width: 23 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_45">
+                <coordinates>140.0217,-4.4555,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_48">
+            <name>ELM</name>
+            <description>Name: Elelim
+Elev: 1450'
+Slope: 2%
+Approach Rwy: 02/20
+Length: 918 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_46">
+                <coordinates>139.3858,-3.7838,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_49">
+            <name>EMD</name>
+            <description>Name: Emdoman
+Elev: 3350'
+Slope: 10%
+Approach Rwy: 23/--
+Length: 440 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_47">
+                <coordinates>139.8822,-4.2223,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_50">
+            <name>ENA</name>
+            <description>Name: Enarotali
+Elev: 5500'
+Slope: 0%
+Approach Rwy: 08/26
+Length: 990 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_48">
+                <coordinates>136.3777,-3.9262,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_51">
+            <name>EWR</name>
+            <description>Name: Ewer
+Elev: 50'
+Slope: 0%
+Approach Rwy: 06/24
+Length: 600 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_49">
+                <coordinates>138.0853,-5.4927,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_52">
+            <name>FAK</name>
+            <description>Name: Fak-fak
+Elev: 200'
+Slope: 3%
+Approach Rwy: 10/28
+Length: 625 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_50">
+                <coordinates>132.2632,-2.9212,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_53">
+            <name>FAO</name>
+            <description>Name: Fawoi
+Elev: 250'
+Slope: 3%
+Approach Rwy: 18/--
+Length: 735 m
+Width: 28 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_51">
+                <coordinates>137.726,-3.231,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_54">
+            <name>GAT</name>
+            <description>Name: Gatini
+Elev: 4100'
+Slope: 11%
+Approach Rwy: 21/--
+Length: 410 m
+Width: 24 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_52">
+                <coordinates>138.3755,-3.5382,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_55">
+            <name>GEA</name>
+            <description>Name: Gearik
+Elev: 150'
+Slope: 2%
+Approach Rwy: 35/--
+Length: 490 m
+Width: 28 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_53">
+                <coordinates>138.7512,-4.651,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_56">
+            <name>GID</name>
+            <description>Name: Gidoman
+Elev: 1000'
+Slope: 2%
+Approach Rwy: 29/--
+Length: 505 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_54">
+                <coordinates>139.9887,-3.9718,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_57">
+            <name>GIL</name>
+            <description>Name: Gilika
+Elev: 2180'
+Slope: 9%
+Approach Rwy: 07/--
+Length: 420 m
+Width: 23 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_55">
+                <coordinates>139.6712,-3.9967,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_58">
+            <name>GOY</name>
+            <description>Name: Goyage
+Elev: 6550'
+Slope: 12%
+Approach Rwy: 28/--
+Length: 435 m
+Width: 24 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_56">
+                <coordinates>138.4287,-3.7262,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_59">
+            <name>HIT</name>
+            <description>Name: Hitadipa
+Elev: 4650'
+Slope: 2%
+Approach Rwy: 25/--
+Length: 520 m
+Width: 17 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_57">
+                <coordinates>137.117,-3.7343,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_60">
+            <name>HOL</name>
+            <description>Name: Holuwon
+Elev: 3300'
+Slope: 16%
+Approach Rwy: 31/--
+Length: 445 m
+Width: 28 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_58">
+                <coordinates>139.2725,-4.4818,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_61">
+            <name>HUB</name>
+            <description>Name: Hubliki
+Elev: 1750'
+Slope: 10%
+Approach Rwy: 22/--
+Length: 448 m
+Width: 28 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_59">
+                <coordinates>139.284,-3.7345,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_62">
+            <name>HUL</name>
+            <description>Name: Huluatas
+Elev: 500'
+Slope: 0%
+Approach Rwy: 09/--
+Length: 500 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_60">
+                <coordinates>140.2297,-3.6803,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_63">
+            <name>IBE</name>
+            <description>Name: Ibele
+Elev: 5900'
+Slope: 9%
+Approach Rwy: 27/--
+Length: 540 m
+Width: 28 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_61">
+                <coordinates>138.796,-4.052,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_64">
+            <name>IDE</name>
+            <description>Name: Idedua
+Elev: 5600'
+Slope: 8%
+Approach Rwy: 08/--
+Length: 400 m
+Width: 16 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_62">
+                <coordinates>135.482,-3.962,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_65">
+            <name>ILA</name>
+            <description>Name: Ilaga
+Elev: 7500'
+Slope: 4%
+Approach Rwy: 25/--
+Length: 608 m
+Width: 31 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_63">
+                <coordinates>137.6222,-3.9768,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_66">
+            <name>ILU</name>
+            <description>Name: Ilu
+Elev: 5950'
+Slope: 7%
+Approach Rwy: 17/--
+Length: 800 m
+Width: 17 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_64">
+                <coordinates>138.1995,-3.7078,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_67">
+            <name>ILG</name>
+            <description>Name: Ilugwa
+Elev: 6000'
+Slope: 7%
+Approach Rwy: 28/--
+Length: 549 m
+Width: 31 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_65">
+                <coordinates>138.92,-3.837,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_68">
+            <name>INA</name>
+            <description>Name: Inanwatan
+Elev: 0'
+Slope: 0%
+Approach Rwy: 08/26
+Length: 500 m
+Width: 44 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_66">
+                <coordinates>132.1613,-2.1272,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_69">
+            <name>IPD</name>
+            <description>Name: Ipdeheik
+Elev: 7300'
+Slope: 16%
+Approach Rwy: 14/--
+Length: 450 m
+Width: 23 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_67">
+                <coordinates>139.3193,-4.376,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_70">
+            <name>IRN</name>
+            <description>Name: Iranmeba
+Elev: 4650'
+Slope: 10%
+Approach Rwy: 17/--
+Length: 400 m
+Width: 26 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_68">
+                <coordinates>133.7187,-1.4102,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_71">
+            <name>IRA</name>
+            <description>Name: Iratoi
+Elev: 300'
+Slope: 0%
+Approach Rwy: 36/--
+Length: 500 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_69">
+                <coordinates>137.3328,-3.2418,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_72">
+            <name>JAG</name>
+            <description>Name: Jagiro
+Elev: 60'
+Slope: 0%
+Approach Rwy: 09/27
+Length: 720 m
+Width: 35 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_70">
+                <coordinates>133.0507,-1.8198,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_73">
+            <name>JAN</name>
+            <description>Name: Jandurau
+Elev: 1950'
+Slope: 0%
+Approach Rwy: 10/28
+Length: 500 m
+Width: 21 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_71">
+                <coordinates>133.2133,-0.8587,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_74">
+            <name>JIL</name>
+            <description>Name: Jila
+Elev: 4100'
+Slope: 8%
+Approach Rwy: 32/--
+Length: 453 m
+Width: 28 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_72">
+                <coordinates>137.5952,-4.2468,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_75">
+            <name>JIT</name>
+            <description>Name: Jita
+Elev: 50'
+Slope: 0%
+Approach Rwy: 02/20
+Length: 570 m
+Width: 31 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_73">
+                <coordinates>137.701,-4.8575,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_76">
+            <name>KMB</name>
+            <description>Name: Kambuaya
+Elev: 1350'
+Slope: 1%
+Approach Rwy: 06/24
+Length: 610 m
+Width: 24 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_74">
+                <coordinates>132.284,-1.3187,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_77">
+            <name>KAM</name>
+            <description>Name: Kamur
+Elev: 15'
+Slope: 0%
+Approach Rwy: 09/27
+Length: 630 m
+Width: 15 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_75">
+                <coordinates>138.6352,-6.1863,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_78">
+            <name>KAN</name>
+            <description>Name: Kanggime
+Elev: 4600'
+Slope: 6%
+Approach Rwy: 24/--
+Length: 625 m
+Width: 15 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_76">
+                <coordinates>138.3615,-3.6662,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_79">
+            <name>KAR</name>
+            <description>Name: Karubaga
+Elev: 4700'
+Slope: 9%
+Approach Rwy: 17/--
+Length: 542 m
+Width: 33 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_77">
+                <coordinates>138.4792,-3.6863,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_80">
+            <name>KBR</name>
+            <description>Name: Kebar
+Elev: 1800'
+Slope: 0%
+Approach Rwy: 09/27
+Length: 810 m
+Width: 38 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_78">
+                <coordinates>133.0542,-0.8103,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_81">
+            <name>KEG</name>
+            <description>Name: Kegata
+Elev: 4600'
+Slope: 10%
+Approach Rwy: 32/--
+Length: 350 m
+Width: 14 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_79">
+                <coordinates>135.5587,-4.0452,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_82">
+            <name>KEN</name>
+            <description>Name: Kenyam
+Elev: 400'
+Slope: 0%
+Approach Rwy: 04/22
+Length: 636 m
+Width: 31 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_80">
+                <coordinates>138.3832,-4.601,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_83">
+            <name>KEI</name>
+            <description>Name: Kepi
+Elev: 40'
+Slope: 0%
+Approach Rwy: 15/33
+Length: 600 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_81">
+                <coordinates>139.3318,-6.5418,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_84">
+            <name>KIM</name>
+            <description>Name: Kimam
+Elev: 20'
+Slope: 0%
+Approach Rwy: 13/31
+Length: 655 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_82">
+                <coordinates>138.8525,-7.9787,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_85">
+            <name>KMU</name>
+            <description>Name: Kirimu
+Elev: 5900'
+Slope: 10%
+Approach Rwy: 22/--
+Length: 475 m
+Width: 32 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_83">
+                <coordinates>140.393,-4.4648,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_86">
+            <name>KIW</name>
+            <description>Name: Kiwi
+Elev: 4900'
+Slope: 15%
+Approach Rwy: 31/--
+Length: 407 m
+Width: 31 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_84">
+                <coordinates>140.722,-4.6975,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_87">
+            <name>KWR</name>
+            <description>Name: Kiwirok
+Elev: 4900'
+Slope: 12%
+Approach Rwy: 25/--
+Length: 522 m
+Width: 19 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_85">
+                <coordinates>140.7387,-4.715,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_88">
+            <name>KIY</name>
+            <description>Name: Kiyage
+Elev: 2625'
+Slope: 14%
+Approach Rwy: 21/--
+Length: 460 m
+Width: 25 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_86">
+                <coordinates>138.0792,-3.4823,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_89">
+            <name>KOB</name>
+            <description>Name: Kobakma
+Elev: 2900'
+Slope: 5%
+Approach Rwy: 09/--
+Length: 765 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_87">
+                <coordinates>139.059,-3.6663,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_90">
+            <name>KOK</name>
+            <description>Name: Kokonao
+Elev: 0'
+Slope: 0%
+Approach Rwy: 09/27
+Length: 600 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_88">
+                <coordinates>136.4362,-4.7115,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_91">
+            <name>KON</name>
+            <description>Name: Kono
+Elev: 6000'
+Slope: 6%
+Approach Rwy: 24/--
+Length: 450 m
+Width: 15 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_89">
+                <coordinates>139.7355,-4.2768,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_92">
+            <name>KOR</name>
+            <description>Name: Koropun
+Elev: 5500'
+Slope: 7%
+Approach Rwy: 36/--
+Length: 545 m
+Width: 25 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_90">
+                <coordinates>139.6495,-4.4792,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_93">
+            <name>KOS</name>
+            <description>Name: Kosarek
+Elev: 4400'
+Slope: 6%
+Approach Rwy: 23/--
+Length: 405 m
+Width: 23 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_91">
+                <coordinates>139.5307,-4.1277,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_94">
+            <name>KWL</name>
+            <description>Name: Kwelamdua
+Elev: 4800'
+Slope: 15%
+Approach Rwy: 33/--
+Length: 411 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_92">
+                <coordinates>139.7552,-4.6898,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_95">
+            <name>KWI</name>
+            <description>Name: Kwijawagi
+Elev: 8700'
+Slope: 3%
+Approach Rwy: 23/--
+Length: 880 m
+Width: 21 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_93">
+                <coordinates>138.2052,-4.025,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_96">
+            <name>LAN</name>
+            <description>Name: Landikma
+Elev: 3000'
+Slope: 15%
+Approach Rwy: 16/--
+Length: 454 m
+Width: 26 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_94">
+                <coordinates>139.2418,-3.8215,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_97">
+            <name>LGD</name>
+            <description>Name: Langda
+Elev: 6150'
+Slope: 3%
+Approach Rwy: 34/--
+Length: 459 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_95">
+                <coordinates>139.9743,-4.6783,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_98">
+            <name>LEL</name>
+            <description>Name: Lelambo
+Elev: 2650'
+Slope: 15%
+Approach Rwy: 18/--
+Length: 399 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_96">
+                <coordinates>139.7853,-4.0322,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_99">
+            <name>LOL</name>
+            <description>Name: Lolat
+Elev: 6000'
+Slope: 19%
+Approach Rwy: 05/--
+Length: 365 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_97">
+                <coordinates>139.439,-4.489,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_100">
+            <name>LUB</name>
+            <description>Name: Luban
+Elev: 700'
+Slope: 3%
+Approach Rwy: 16/--
+Length: 730 m
+Width: 21 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_98">
+                <coordinates>140.5597,-4.2172,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_101">
+            <name>LUM</name>
+            <description>Name: Lumo
+Elev: 4650'
+Slope: 9%
+Approach Rwy: 06/--
+Length: 372 m
+Width: 14 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_99">
+                <coordinates>137.807,-3.668,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_102">
+            <name>MGD</name>
+            <description>Name: Magoda
+Elev: 4900'
+Slope: 5%
+Approach Rwy: 03/--
+Length: 430 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_100">
+                <coordinates>135.8537,-3.9895,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_103">
+            <name>MAK</name>
+            <description>Name: Makki
+Elev: 6300'
+Slope: 8%
+Approach Rwy: 15/--
+Length: 646 m
+Width: 19 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_101">
+                <coordinates>138.628,-3.9708,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_104">
+            <name>MKS</name>
+            <description>Name: Maksum
+Elev: 5100'
+Slope: 10%
+Approach Rwy: 22/--
+Length: 376 m
+Width: 19 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_102">
+                <coordinates>140.5152,-4.5802,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_105">
+            <name>MAM</name>
+            <description>Name: Mamit
+Elev: 4400'
+Slope: 11%
+Approach Rwy: 29/--
+Length: 555 m
+Width: 17 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_103">
+                <coordinates>138.3968,-3.5885,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_106">
+            <name>WAUU</name>
+            <description>Name: Manokwari
+Elev: 10'
+Slope: 0%
+Approach Rwy: 17/35
+Length: 2000 m
+Width: 45 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_104">
+                <coordinates>134.0502,-0.8937,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_107">
+            <name>MAP</name>
+            <description>Name: Mapnduma
+Elev: 3100'
+Slope: 5%
+Approach Rwy: 03/--
+Length: 407 m
+Width: 25 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_105">
+                <coordinates>138.2463,-4.309,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_108">
+            <name>MBU</name>
+            <description>Name: Mbua
+Elev: 6300'
+Slope: 10%
+Approach Rwy: 07/--
+Length: 490 m
+Width: 19 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_106">
+                <coordinates>138.4652,-4.2393,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_109">
+            <name>MBG</name>
+            <description>Name: Mbugulo
+Elev: 6250'
+Slope: 10%
+Approach Rwy: 24/--
+Length: 390 m
+Width: 17 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_107">
+                <coordinates>136.7427,-3.708,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_110">
+            <name>MEN</name>
+            <description>Name: Menyembou
+Elev: 4100'
+Slope: 12%
+Approach Rwy: 07/--
+Length: 525 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_108">
+                <coordinates>133.8648,-1.1342,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_111">
+            <name>WAKK</name>
+            <description>Name: Merauke
+Elev: 10'
+Slope: 0%
+Approach Rwy: 16/34
+Length: 1850 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_109">
+                <coordinates>140.417,-8.5212,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_112">
+            <name>MRD</name>
+            <description>Name: Merdey
+Elev: 350'
+Slope: 0%
+Approach Rwy: 09/27
+Length: 600 m
+Width: 55 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_110">
+                <coordinates>133.2963,-1.591,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_113">
+            <name>MES</name>
+            <description>Name: Mesina
+Elev: 1900'
+Slope: 8%
+Approach Rwy: 02/--
+Length: 410 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_111">
+                <coordinates>133.1753,-1.3803,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_114">
+            <name>MEY</name>
+            <description>Name: Meyado
+Elev: 210'
+Slope: 1%
+Approach Rwy: 04/22
+Length: 598 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_112">
+                <coordinates>133.1577,-1.9092,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_115">
+            <name>MYG</name>
+            <description>Name: Meyerga
+Elev: 200'
+Slope: 1%
+Approach Rwy: 35/--
+Length: 527 m
+Width: 29 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_113">
+                <coordinates>132.9532,-1.628,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_116">
+            <name>MIN</name>
+            <description>Name: Mindiptanah
+Elev: 200'
+Slope: 0%
+Approach Rwy: 16/34
+Length: 610 m
+Width: 23 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_114">
+                <coordinates>140.7103,-5.8773,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_117">
+            <name>MIP</name>
+            <description>Name: Mipol
+Elev: 4550'
+Slope: 11%
+Approach Rwy: 16/--
+Length: 372 m
+Width: 21 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_115">
+                <coordinates>140.635,-4.6063,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_118">
+            <name>MOA</name>
+            <description>Name: Moanamani
+Elev: 4880'
+Slope: 0%
+Approach Rwy: 03/21
+Length: 1010 m
+Width: 24 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_116">
+                <coordinates>136.0373,-4.007,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_119">
+            <name>MKD</name>
+            <description>Name: Mokndoma
+Elev: 6700'
+Slope: 3%
+Approach Rwy: 08/--
+Length: 460 m
+Width: 16 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_117">
+                <coordinates>137.7717,-3.6453,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_120">
+            <name>MOK</name>
+            <description>Name: Mokwam
+Elev: 3750'
+Slope: 12%
+Approach Rwy: 23/--
+Length: 402 m
+Width: 29 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_118">
+                <coordinates>133.9223,-1.1078,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_121">
+            <name>MOT</name>
+            <description>Name: Mot
+Elev: 400'
+Slope: 5%
+Approach Rwy: 36/--
+Length: 424 m
+Width: 21 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_119">
+                <coordinates>140.8517,-4.1645,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_122">
+            <name>MOU</name>
+            <description>Name: Mouyeba
+Elev: 1750'
+Slope: 7%
+Approach Rwy: 07/--
+Length: 450 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_120">
+                <coordinates>132.9988,-1.3892,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_123">
+            <name>MUL</name>
+            <description>Name: Mulia
+Elev: 5350'
+Slope: 10%
+Approach Rwy: 09/--
+Length: 810 m
+Width: 27 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_121">
+                <coordinates>137.9578,-3.7027,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_124">
+            <name>MLU</name>
+            <description>Name: Mulu
+Elev: 6450'
+Slope: 3%
+Approach Rwy: 14/--
+Length: 600 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_122">
+                <coordinates>137.2305,-4.2028,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_125">
+            <name>NBA</name>
+            <description>Name: Nabia
+Elev: 6000'
+Slope: 5%
+Approach Rwy: 26/--
+Length: 420 m
+Width: 16 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_123">
+                <coordinates>137.2225,-3.6915,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_126">
+            <name>WABI</name>
+            <description>Name: Nabire
+Elev: 20'
+Slope: 0%
+Approach Rwy: 16/34
+Length: 1400 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_124">
+                <coordinates>135.5,-3.3667,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_127">
+            <name>NAL</name>
+            <description>Name: Nalca
+Elev: 4750'
+Slope: 11%
+Approach Rwy: 23/--
+Length: 540 m
+Width: 15 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_125">
+                <coordinates>139.8332,-4.3657,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_128">
+            <name>NDU</name>
+            <description>Name: Ndundu
+Elev: 3000'
+Slope: 6%
+Approach Rwy: 04/--
+Length: 453 m
+Width: 26 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_126">
+                <coordinates>138.363,-3.4937,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_129">
+            <name>NEK</name>
+            <description>Name: Nekori
+Elev: 2900'
+Slope: 3%
+Approach Rwy: 01/--
+Length: 441 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_127">
+                <coordinates>133.1635,-0.9442,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_130">
+            <name>NGE</name>
+            <description>Name: Ngergen
+Elev: 4800'
+Slope: 5%
+Approach Rwy: 23/--
+Length: 528 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_128">
+                <coordinates>139.8187,-4.3343,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_131">
+            <name>NIN</name>
+            <description>Name: Ninia
+Elev: 6550'
+Slope: 10%
+Approach Rwy: 29/--
+Length: 445 m
+Width: 25 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_129">
+                <coordinates>139.3015,-4.3643,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_132">
+            <name>NIP</name>
+            <description>Name: Nipsan
+Elev: 5100'
+Slope: 11%
+Approach Rwy: 27/--
+Length: 523 m
+Width: 23 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_130">
+                <coordinates>139.6457,-4.1182,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_133">
+            <name>NIS</name>
+            <description>Name: Nisikni
+Elev: 6900'
+Slope: 13%
+Approach Rwy: 17/--
+Length: 445 m
+Width: 13 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_131">
+                <coordinates>139.4742,-4.2492,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_134">
+            <name>NNG</name>
+            <description>Name: Nongme
+Elev: 2450'
+Slope: 13%
+Approach Rwy: 18/--
+Length: 535 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_132">
+                <coordinates>140.1983,-4.2608,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_135">
+            <name>OAK</name>
+            <description>Name: Oakbisik
+Elev: 7000'
+Slope: 8%
+Approach Rwy: 36/--
+Length: 502 m
+Width: 16 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_133">
+                <coordinates>139.2117,-4.3498,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_136">
+            <name>OBI</name>
+            <description>Name: Obiyo
+Elev: 100'
+Slope: 0%
+Approach Rwy: 08/26
+Length: 500 m
+Width: 23 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_134">
+                <coordinates>139.1995,-4.7395,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_137">
+            <name>OBK</name>
+            <description>Name: Obukain
+Elev: 75'
+Slope: 0%
+Approach Rwy: 16/34
+Length: 567 m
+Width: 25 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_135">
+                <coordinates>139.2032,-4.9265,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_138">
+            <name>OKB</name>
+            <description>Name: Okbap
+Elev: 5800'
+Slope: 17%
+Approach Rwy: 31/--
+Length: 430 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_136">
+                <coordinates>140.498,-4.5872,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_139">
+            <name>OKP</name>
+            <description>Name: Okbape
+Elev: 4700'
+Slope: 10%
+Approach Rwy: 11/--
+Length: 425 m
+Width: 19 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_137">
+                <coordinates>140.3532,-4.8238,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_140">
+            <name>OKH</name>
+            <description>Name: Okhika
+Elev: 4650'
+Slope: 13%
+Approach Rwy: 19/--
+Length: 540 m
+Width: 28 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_138">
+                <coordinates>140.6753,-4.6655,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_141">
+            <name>OKS</name>
+            <description>Name: Oksibil
+Elev: 4000'
+Slope: 1%
+Approach Rwy: 11/29
+Length: 1150 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_139">
+                <coordinates>140.6293,-4.9078,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_142">
+            <name>OKY</name>
+            <description>Name: Okyop
+Elev: 4100'
+Slope: 5%
+Approach Rwy: 20/--
+Length: 435 m
+Width: 17 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_140">
+                <coordinates>140.8483,-4.7432,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_143">
+            <name>OMB</name>
+            <description>Name: Omban
+Elev: 2800'
+Slope: 10%
+Approach Rwy: 18/--
+Length: 457 m
+Width: 27 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_141">
+                <coordinates>140.3927,-4.3678,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_144">
+            <name>OWT</name>
+            <description>Name: Owitlep
+Elev: 7700'
+Slope: 9%
+Approach Rwy: 34/--
+Length: 500 m
+Width: 21 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_142">
+                <coordinates>139.3297,-4.3145,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_145">
+            <name>PAG</name>
+            <description>Name: Pagai
+Elev: 200'
+Slope: 0%
+Approach Rwy: 02/20
+Length: 750 m
+Width: 17 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_143">
+                <coordinates>139.7822,-3.5373,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_146">
+            <name>PGB</name>
+            <description>Name: Pagamba
+Elev: 5150'
+Slope: 15%
+Approach Rwy: 13/--
+Length: 490 m
+Width: 16 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_144">
+                <coordinates>136.6785,-3.643,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_147">
+            <name>PAA</name>
+            <description>Name: Paima
+Elev: 5100'
+Slope: 14%
+Approach Rwy: 23/--
+Length: 400 m
+Width: 21 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_145">
+                <coordinates>139.16,-4.4565,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_148">
+            <name>PAM</name>
+            <description>Name: Pamek
+Elev: 5700'
+Slope: 12%
+Approach Rwy: 26/--
+Length: 467 m
+Width: 24 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_146">
+                <coordinates>140.0217,-4.425,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_149">
+            <name>PNA</name>
+            <description>Name: Panaga
+Elev: 5200'
+Slope: 12%
+Approach Rwy: 36/--
+Length: 360 m
+Width: 26 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_147">
+                <coordinates>138.4342,-3.5702,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_150">
+            <name>PAN</name>
+            <description>Name: Panggema
+Elev: 4400'
+Slope: 13%
+Approach Rwy: 23/--
+Length: 440 m
+Width: 24 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_148">
+                <coordinates>139.3762,-4.1358,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_151">
+            <name>PAR</name>
+            <description>Name: Paro
+Elev: 1550'
+Slope: 5%
+Approach Rwy: 31/--
+Length: 630 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_149">
+                <coordinates>138.234,-4.3888,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_152">
+            <name>PAS</name>
+            <description>Name: Pasima
+Elev: 3900'
+Slope: 16%
+Approach Rwy: 21/--
+Length: 450 m
+Width: 15 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_150">
+                <coordinates>139.0823,-4.3783,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_153">
+            <name>PAV</name>
+            <description>Name: Pass Valley
+Elev: 5900'
+Slope: 8%
+Approach Rwy: 28/--
+Length: 637 m
+Width: 24 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_151">
+                <coordinates>139.1,-3.8588,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_154">
+            <name>POG</name>
+            <description>Name: Pogapa
+Elev: 5900'
+Slope: 10%
+Approach Rwy: 15/--
+Length: 534 m
+Width: 19 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_152">
+                <coordinates>136.8458,-3.7522,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_155">
+            <name>PRO</name>
+            <description>Name: Prongkoli
+Elev: 5900'
+Slope: 7%
+Approach Rwy: 24/--
+Length: 468 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_153">
+                <coordinates>139.3418,-4.1885,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_156">
+            <name>PUB</name>
+            <description>Name: Pubuan
+Elev: 1900'
+Slope: 1%
+Approach Rwy: 13/31
+Length: 540 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_154">
+                <coordinates>133.2742,-0.8603,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_157">
+            <name>PUL</name>
+            <description>Name: Puldamat
+Elev: 5000'
+Slope: 4%
+Approach Rwy: 12/--
+Length: 632 m
+Width: 17 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_155">
+                <coordinates>139.8698,-4.3208,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_158">
+            <name>PYR</name>
+            <description>Name: Pyramid
+Elev: 5200'
+Slope: 7%
+Approach Rwy: 21/--
+Length: 600 m
+Width: 27 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_156">
+                <coordinates>138.7628,-3.9033,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_159">
+            <name>RAW</name>
+            <description>Name: Rawara
+Elev: 280'
+Slope: 2%
+Approach Rwy: 17/35
+Length: 620 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_157">
+                <coordinates>132.978,-1.7497,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_160">
+            <name>SAM</name>
+            <description>Name: Samboka
+Elev: 450'
+Slope: 2%
+Approach Rwy: 34/--
+Length: 465 m
+Width: 33 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_158">
+                <coordinates>139.7148,-4.8363,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_161">
+            <name>SAP</name>
+            <description>Name: Sape
+Elev: 6300'
+Slope: 12%
+Approach Rwy: 33/--
+Length: 420 m
+Width: 21 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_159">
+                <coordinates>140.505,-4.7652,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_162">
+            <name>SEF</name>
+            <description>Name: Sefoidi
+Elev: 420'
+Slope: 0%
+Approach Rwy: 35/--
+Length: 560 m
+Width: 17 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_160">
+                <coordinates>136.9105,-3.1842,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_163">
+            <name>SEL</name>
+            <description>Name: Sela
+Elev: 5850'
+Slope: 13%
+Approach Rwy: 21/--
+Length: 427 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_161">
+                <coordinates>139.7338,-4.5513,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_164">
+            <name>SEN</name>
+            <description>Name: Senggi
+Elev: 800'
+Slope: 0%
+Approach Rwy: 01/19
+Length: 770 m
+Width: 21 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_162">
+                <coordinates>140.7767,-3.4442,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_165">
+            <name>SGO</name>
+            <description>Name: Senggo
+Elev: 50'
+Slope: 1%
+Approach Rwy: 09/27
+Length: 690 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_163">
+                <coordinates>139.3498,-5.6907,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_166">
+            <name>WAJJ</name>
+            <description>Name: Sentani
+Elev: 289'
+Slope: 0%
+Approach Rwy: 12/30
+Length: 2495 m
+Width: 45 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_164">
+                <coordinates>140.5113,-2.572,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_167">
+            <name>SER</name>
+            <description>Name: Serui
+Elev: 100'
+Slope: 0%
+Approach Rwy: 10/28
+Length: 1200 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_165">
+                <coordinates>136.0592,-1.8242,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_168">
+            <name>SIL</name>
+            <description>Name: Silomo
+Elev: 5300'
+Slope: 9%
+Approach Rwy: 05/--
+Length: 550 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_166">
+                <coordinates>138.9432,-4.466,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_169">
+            <name>SIN</name>
+            <description>Name: Sinak
+Elev: 6900'
+Slope: 0%
+Approach Rwy: 17/35
+Length: 806 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_167">
+                <coordinates>137.8397,-3.8235,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_170">
+            <name>SNK</name>
+            <description>Name: Sinokla
+Elev: 4250'
+Slope: 2%
+Approach Rwy: 04/22
+Length: 566 m
+Width: 25 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_168">
+                <coordinates>139.5237,-4.4702,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_171">
+            <name>SIR</name>
+            <description>Name: Siradala
+Elev: 350'
+Slope: 0%
+Approach Rwy: 12/30
+Length: 550 m
+Width: 32 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_169">
+                <coordinates>139.9038,-4.98,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_172">
+            <name>SIW</name>
+            <description>Name: Siriwo
+Elev: 500'
+Slope: 5%
+Approach Rwy: 15/33
+Length: 420 m
+Width: 26 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_170">
+                <coordinates>135.9492,-3.5387,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_173">
+            <name>SRU</name>
+            <description>Name: Siru
+Elev: 10'
+Slope: 0%
+Approach Rwy: 05/--
+Length: 477 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_171">
+                <coordinates>138.9012,-4.9237,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_174">
+            <name>SOB</name>
+            <description>Name: Soba
+Elev: 5500'
+Slope: 8%
+Approach Rwy: 03/--
+Length: 495 m
+Width: 25 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_172">
+                <coordinates>139.179,-4.346,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_175">
+            <name>WAXX</name>
+            <description>Name: Sorong
+Elev: 10'
+Slope: 0%
+Approach Rwy: 09/27
+Length: 1850 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_173">
+                <coordinates>131.2877,-0.8885,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_176">
+            <name>SYA</name>
+            <description>Name: Soya
+Elev: 6100'
+Slope: 14%
+Approach Rwy: 15/--
+Length: 600 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_174">
+                <coordinates>139.9167,-4.3717,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_177">
+            <name>SUM</name>
+            <description>Name: Sumo
+Elev: 150'
+Slope: 0%
+Approach Rwy: 02/20
+Length: 594 m
+Width: 15 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_175">
+                <coordinates>139.3535,-4.7498,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_178">
+            <name>SMT</name>
+            <description>Name: Sumtamon
+Elev: 4200'
+Slope: 10%
+Approach Rwy: 29/--
+Length: 482 m
+Width: 27 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_176">
+                <coordinates>140.1707,-4.8098,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_179">
+            <name>SUR</name>
+            <description>Name: Suru Suru
+Elev: 100'
+Slope: 0%
+Approach Rwy: 11/29
+Length: 540 m
+Width: 25 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_177">
+                <coordinates>138.9823,-4.7672,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_180">
+            <name>TAV</name>
+            <description>Name: Taiyeve
+Elev: 200'
+Slope: 0%
+Approach Rwy: 06/24
+Length: 650 m
+Width: 27 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_178">
+                <coordinates>138.4455,-3.2335,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_181">
+            <name>TMH</name>
+            <description>Name: Tanah Merah
+Elev: 100'
+Slope: 0%
+Approach Rwy: 07/25
+Length: 900 m
+Width: 28 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_179">
+                <coordinates>140.3018,-6.0972,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_182">
+            <name>TNG</name>
+            <description>Name: Tangma
+Elev: 5400'
+Slope: 11%
+Approach Rwy: 30/--
+Length: 423 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_180">
+                <coordinates>139.0473,-4.2612,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_183">
+            <name>TAN</name>
+            <description>Name: Tanime
+Elev: 4700'
+Slope: 18%
+Approach Rwy: 20/--
+Length: 340 m
+Width: 24 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_181">
+                <coordinates>140.1303,-4.4518,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_184">
+            <name>TAR</name>
+            <description>Name: Taria
+Elev: 200'
+Slope: 2%
+Approach Rwy: 02/20
+Length: 885 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_182">
+                <coordinates>138.8937,-3.4135,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_185">
+            <name>TEM</name>
+            <description>Name: Teminabuan
+Elev: 130'
+Slope: 0%
+Approach Rwy: 11/29
+Length: 633 m
+Width: 15 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_183">
+                <coordinates>132.0225,-1.4473,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_186">
+            <name>TER</name>
+            <description>Name: Terablu
+Elev: 750'
+Slope: 1%
+Approach Rwy: 20/--
+Length: 520 m
+Width: 33 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_184">
+                <coordinates>140.4447,-3.991,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_187">
+            <name>TRP</name>
+            <description>Name: Terponis
+Elev: 850'
+Slope: 2%
+Approach Rwy: 09/--
+Length: 508 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_185">
+                <coordinates>140.659,-3.9742,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_188">
+            <name>TES</name>
+            <description>Name: Testega
+Elev: 3500'
+Slope: 7%
+Approach Rwy: 05/--
+Length: 419 m
+Width: 31 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_186">
+                <coordinates>133.5947,-1.378,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_189">
+            <name>TIB</name>
+            <description>Name: Tibul
+Elev: 3600'
+Slope: 11%
+Approach Rwy: 28/--
+Length: 420 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_187">
+                <coordinates>139.7458,-4.0602,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_190">
+            <name>WAYY</name>
+            <description>Name: Timika
+Elev: 103'
+Slope: 0%
+Approach Rwy: 12/30
+Length: 2390 m
+Width: 45 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_188">
+                <coordinates>136.8883,-4.5317,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_191">
+            <name>TGP</name>
+            <description>Name: Tinggipura
+Elev: 7150'
+Slope: 9%
+Approach Rwy: 30/--
+Length: 558 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_189">
+                <coordinates>138.3622,-3.9805,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_192">
+            <name>TIO</name>
+            <description>Name: Tiom
+Elev: 6475'
+Slope: 4%
+Approach Rwy: 30/--
+Length: 660 m
+Width: 26 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_190">
+                <coordinates>138.454,-3.9267,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_193">
+            <name>TOK</name>
+            <description>Name: Tokuni
+Elev: 180'
+Slope: 1%
+Approach Rwy: 04/--
+Length: 507 m
+Width: 16 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_191">
+                <coordinates>139.7367,-5.0045,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_194">
+            <name>TUR</name>
+            <description>Name: Turumo
+Elev: 300'
+Slope: 0%
+Approach Rwy: 09/27
+Length: 560 m
+Width: 20 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_192">
+                <coordinates>137.5582,-3.2737,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_195">
+            <name>AYVN</name>
+            <description>Name: Vanimo
+Elev: 10'
+Slope: 0%
+Approach Rwy: 12/30
+Length: 1760 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_193">
+                <coordinates>141.3017,-2.6917,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_196">
+            <name>WAG</name>
+            <description>Name: Waghete
+Elev: 5500'
+Slope: 1%
+Approach Rwy: 04/22
+Length: 1400 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_194">
+                <coordinates>136.2818,-4.0592,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_197">
+            <name>WKA</name>
+            <description>Name: Wahuka
+Elev: 410'
+Slope: 10%
+Approach Rwy: 24/--
+Length: 318 m
+Width: 14 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_195">
+                <coordinates>137.2293,-3.1145,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_198">
+            <name>WAL</name>
+            <description>Name: Walma
+Elev: 5800'
+Slope: 13%
+Approach Rwy: 24/--
+Length: 453 m
+Width: 16 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_196">
+                <coordinates>139.3937,-4.2178,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_199">
+            <name>WAVV</name>
+            <description>Name: Wamena
+Elev: 5150'
+Slope: 0%
+Approach Rwy: 15/33
+Length: 1900 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_197">
+                <coordinates>138.9515,-4.0975,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_200">
+            <name>WNM</name>
+            <description>Name: Wanam
+Elev: 20'
+Slope: 0%
+Approach Rwy: 13/31
+Length: 1080 m
+Width: 25 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_198">
+                <coordinates>139.1178,-7.5403,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_201">
+            <name>WGB</name>
+            <description>Name: Wangbe
+Elev: 7200'
+Slope: 6%
+Approach Rwy: 24/--
+Length: 470 m
+Width: 26 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_199">
+                <coordinates>137.4695,-3.8683,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_202">
+            <name>WNG</name>
+            <description>Name: Wanggemalo
+Elev: 200'
+Slope: 0%
+Approach Rwy: 12/30
+Length: 500 m
+Width: 13 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_200">
+                <coordinates>139.9775,-5.4988,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_203">
+            <name>WAS</name>
+            <description>Name: Wasio
+Elev: 10'
+Slope: 0%
+Approach Rwy: 17/35
+Length: 600 m
+Width: 18 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_201">
+                <coordinates>134.5058,-2.7205,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_204">
+            <name>WEA</name>
+            <description>Name: Weawen
+Elev: 5700'
+Slope: 17%
+Approach Rwy: 30/--
+Length: 336 m
+Width: 23 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_202">
+                <coordinates>139.4773,-4.4935,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_205">
+            <name>WEI</name>
+            <description>Name: Weime
+Elev: 4500'
+Slope: 12%
+Approach Rwy: 09/--
+Length: 550 m
+Width: 28 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_203">
+                <coordinates>140.2603,-4.3542,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_206">
+            <name>WEL</name>
+            <description>Name: Welerek
+Elev: 2200'
+Slope: 4%
+Approach Rwy: 29/--
+Length: 660 m
+Width: 24 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_204">
+                <coordinates>139.4918,-3.9935,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_207">
+            <name>WER</name>
+            <description>Name: Weri
+Elev: 350'
+Slope: 2%
+Approach Rwy: 21/--
+Length: 499 m
+Width: 19 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_205">
+                <coordinates>137.831,-3.29,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_208">
+            <name>WNA</name>
+            <description>Name: Wina
+Elev: 2400'
+Slope: 7%
+Approach Rwy: 11/--
+Length: 336 m
+Width: 22 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_206">
+                <coordinates>138.2395,-3.4558,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_209">
+            <name>WOL</name>
+            <description>Name: Wolo
+Elev: 5300'
+Slope: 9%
+Approach Rwy: 34/--
+Length: 547 m
+Width: 29 m</description>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Point id="geom_207">
+                <coordinates>138.859,-3.8517,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_210">
+            <name>WUN</name>
+            <description>Name: Wunin
+Elev: 5024'
+Slope: 6%
+Approach Rwy: 09/--
+Length: 650 m
+Width: 31 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_208">
+                <coordinates>138.5552,-3.6508,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_211">
+            <name>YNR</name>
+            <description>Name: Yaniruma
+Elev: 150'
+Slope: 0%
+Approach Rwy: 10/28
+Length: 650 m
+Width: 30 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_209">
+                <coordinates>139.8188,-5.4203,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_212">
+            <name>YAP</name>
+            <description>Name: Yapil
+Elev: 3900'
+Slope: 11%
+Approach Rwy: 26/--
+Length: 600 m
+Width: 31 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_210">
+                <coordinates>140.5708,-4.5423,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_213">
+            <name>YIG</name>
+            <description>Name: Yigi
+Elev: 5500'
+Slope: 15%
+Approach Rwy: 08/--
+Length: 427 m
+Width: 31 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_211">
+                <coordinates>138.392,-4.23,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_214">
+            <name>YGS</name>
+            <description>Name: Yogesem
+Elev: 7600'
+Slope: 10%
+Approach Rwy: 27/--
+Length: 479 m
+Width: 28 m</description>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_212">
+                <coordinates>139.1677,-4.2475,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
