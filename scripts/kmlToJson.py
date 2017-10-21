@@ -1,4 +1,5 @@
 import json
+import re
 import xml.etree.ElementTree
 
 emptyPlacemark = {
@@ -63,19 +64,27 @@ def placemarkerToJson(placemarker):
     out["LongDeg"] = coords.split(",")[0]
     out["LatDeg"] = coords.split(",")[1]
     out["Description"] = placemarker.find(".//{http://www.opengis.net/kml/2.2}description").text
-    #Name: Yogesem\nElev: 7600'\nSlope: 10%\nApproach Rwy: 27/--\nLength: 479 m\nWidth: 28 m"
-    out = dict(out.items() + processDescription(out).items())
+    out.update(processDescription(out))
     return out
 
 def processDescription(data):
     # check description
     description = {}
     desc = data["Description"]
-    descChunks = len(desc.split("\n"))
-    if(descChunks < 2)
+    descChunks = desc.split("\n")
+    if(len(descChunks) < 2):
         return description
-    # TODO more processing here to break out papua data
+    # more processing here to break out papua data
+    description = dict((chunk.split(":")) for chunk in descChunks)
+    description["Elevation"] = stripUnits(description.pop("Elev"))
+    description["Slope"] = stripUnits(description.pop("Slope"))
+    description["RwDirection"] = description.pop("Approach Rwy")
+    description["RwLength"] = stripUnits(description.pop("Length"))
+    description["RwWidth"] = stripUnits(description.pop("Width"))
     return description
+
+def stripUnits(data):
+    return re.sub("[^0-9]","", data).strip()
 
 def writeToFile(data, filename):
     file = open(filename, "w")
@@ -83,7 +92,7 @@ def writeToFile(data, filename):
     file.close()
 
 if __name__ == "__main__":
-    filename = '../Kalimantan Airstrips'
-    #filename = '../papua_airstrips'
+    #filename = '../Kalimantan Airstrips'
+    filename = '../papua_airstrips'
     data = kmlToJson(filename + ".kml")
     writeToFile(data, filename + ".json")
