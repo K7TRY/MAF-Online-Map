@@ -7,14 +7,18 @@ def csvToJson(file):
         reader = csv.DictReader(f)
         for row in reader:
             out.append(row)
-    return json.dumps(out)
+    return out
 
 def writeToFile(data, filename):
     file = open(filename, "w")
-    file.write(data)
+    file.write(json.dumps(data))
     file.close()
 
+def generateFromCsv(filenames):
+    for filename in filenames:
+        data = csvToJson(filename + ".csv")
+        writeToFile(data, filename + ".json")
+
 if __name__ == "__main__":
-    filename = '../MAF_Served_Airstrips'
-    data = csvToJson(filename + ".csv")
-    writeToFile(data, filename + ".json")
+    filenames = ['../data/MAF_Served_Airstrips']
+    generateFromCsv(filenames)
