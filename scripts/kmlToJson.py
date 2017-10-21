@@ -94,7 +94,7 @@ def writeToFile(data, filename):
 
 def indonesiaPlacemark():
     indonesiaPlacemark = emptyPlacemark
-    indonesiaPlacemark.update({"Program": "IN"})
+    indonesiaPlacemark.update({"Program": "ID"})
     return indonesiaPlacemark
 
 def generateFromKml(filenames):
