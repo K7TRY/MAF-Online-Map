@@ -62,6 +62,7 @@ def writeToFile(data, filename, indent=False):
 def generateCombinedData(filenames):
     data = combineFiles(filenames)
     data = [cleanData(airstrip) for airstrip in data]
+    data = [airstrip for airstrip in data if airstrip]
     writeToFile(badData, "../data/bad_data.json", True)
     writeToFile(data, "../data/combined_maf_data.json")
 
