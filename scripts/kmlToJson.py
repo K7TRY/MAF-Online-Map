@@ -92,7 +92,7 @@ def writeToFile(data, filename):
     file.close()
 
 if __name__ == "__main__":
-    #filename = '../Kalimantan Airstrips'
-    filename = '../papua_airstrips'
+    #filename = '../data/Kalimantan Airstrips'
+    filename = '../data/papua_airstrips'
     data = kmlToJson(filename + ".kml")
     writeToFile(data, filename + ".json")

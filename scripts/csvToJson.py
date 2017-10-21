@@ -15,6 +15,6 @@ def writeToFile(data, filename):
     file.close()
 
 if __name__ == "__main__":
-    filename = '../MAF_Served_Airstrips'
+    filename = '../data/MAF_Served_Airstrips'
     data = csvToJson(filename + ".csv")
     writeToFile(data, filename + ".json")
