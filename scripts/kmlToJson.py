@@ -3,26 +3,26 @@ import re
 import xml.etree.ElementTree
 
 emptyPlacemark = {
-        "Program": None,
-        "AirstripID": None,
-        "DisplayName": None,
-        "Name": None,
-        "ICAO": None,
-        "GPS": None,
-        "LatDeg": None,
-        "LongDeg": None,
-        "Variation": None,
-        "Elevation": None,
-        "RwDirection": None,
-        "RwClass": None,
-        "RwSurface": None,
-        "RwLength": None,
-        "TODA": None,
-        "RwWidth": None,
-        "Wet": None,
-        "Dry": None,
-        "Slope": None,
-        "MAFBase": None
+        "Program": "",
+        "AirstripID": "",
+        "DisplayName": "",
+        "Name": "",
+        "ICAO": "",
+        "GPS": "",
+        "LatDeg": "",
+        "LongDeg": "",
+        "Variation": "",
+        "Elevation": "",
+        "RwDirection": "",
+        "RwClass": "",
+        "RwSurface": "",
+        "RwLength": "",
+        "TODA": "",
+        "RwWidth": "",
+        "Wet": "",
+        "Dry": "",
+        "Slope": "",
+        "MAFBase": ""
     }
 examplePlacemark = {
         "Program": "EC",
@@ -47,24 +47,25 @@ examplePlacemark = {
         "MAFBase": "0"
     }
 
-def kmlToJson(file):
+def kmlToJson(file, defaultPlacemark):
     out = []
     root = xml.etree.ElementTree.parse(file).getroot()
     placemarkers = root.findall(".//{http://www.opengis.net/kml/2.2}Placemark")
     print("found", len(placemarkers), "placemarkers")
 
     for placemarker in placemarkers:
-        out.append(placemarkerToJson(placemarker))
-    return json.dumps(out)
+        out.append(placemarkerToJson(placemarker, defaultPlacemark))
+    return out
 
-def placemarkerToJson(placemarker):
-    out = emptyPlacemark
+def placemarkerToJson(placemarker, defaultPlacemark):
+    out = defaultPlacemark
     out["DisplayName"] = placemarker.find("{http://www.opengis.net/kml/2.2}name").text
     coords = placemarker.find(".//{http://www.opengis.net/kml/2.2}coordinates").text
     out["LongDeg"] = coords.split(",")[0]
     out["LatDeg"] = coords.split(",")[1]
     out["Description"] = placemarker.find(".//{http://www.opengis.net/kml/2.2}description").text
     out.update(processDescription(out))
+    out.pop("Description")
     return out
 
 def processDescription(data):
@@ -88,11 +89,20 @@ def stripUnits(data):
 
 def writeToFile(data, filename):
     file = open(filename, "w")
-    file.write(data)
+    file.write(json.dumps(data))
     file.close()
 
+def indonesiaPlacemark():
+    indonesiaPlacemark = emptyPlacemark
+    indonesiaPlacemark.update({"Program": "IN"})
+    return indonesiaPlacemark
+
+def generateFromKml(filenames):
+    defaultPlacemark = indonesiaPlacemark()
+    for filename in filenames:
+        data = kmlToJson(filename + ".kml", defaultPlacemark)
+        writeToFile(data, filename + ".json")
+
 if __name__ == "__main__":
-    #filename = '../data/Kalimantan Airstrips'
-    filename = '../data/papua_airstrips'
-    data = kmlToJson(filename + ".kml")
-    writeToFile(data, filename + ".json")
+    filenames = ['../data/Kalimantan Airstrips', '../data/papua_airstrips']
+    generateFromKml(filenames)
