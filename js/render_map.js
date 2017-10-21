@@ -32,10 +32,13 @@ const program_to_country = {
     NAM: 'US',
     ID: 'ID',
 };
+//map  json country codes to map country codes
+
 const in_countries = airstrip_data.reduce((values, airstrip) => {
     values[program_to_country[airstrip.Program]] = 1;
     return values;
 }, {});
+//marker data needed
 const marker_data = airstrip_data.map((airstrip) => {
     return {
         latLng: [airstrip.LatDeg, airstrip.LongDeg],
@@ -54,14 +57,16 @@ $('#map').vectorMap({
             scale: ['#FFFFFF', '#0071A4'],
             normalizeFunction: 'polynomial',
         }],
-        markers: [{
-            attribute: 'image',
+        markers: [
+            marker_data,
+            {attribute: 'image',
             scale: {
-                'MAF': 'images/maf_logo.png',
                 'FLY': 'images/airport.png',
             },
             values: airstrip_data.reduce((values, airstrip, index) => {
-                values[index] = (airstrip.MAFBase === 1 ? 'MAF' : 'FLY');
+                if(airstrip.MAFBase === "1"){
+                    values[index] = "FLY";
+                }
                 return values;
             }, {}),
             legend: {
@@ -69,12 +74,14 @@ $('#map').vectorMap({
                 title: 'MAF bases and destinations',
                 labelRender: (v) => {
                     return {
-                        MAF: 'MAF Base',
-                        FLY: 'MAF destination airports',
+                        FLY: 'MAF Base',
                     }[v];
                 }
             }
-        }]
+        }],
+        onRegionClick: function(){
+
+        }
     },
-    backgroundColor: '#383f47',
+    backgroundColor: '#383f47'
 });
