@@ -1,3 +1,4 @@
+import copy
 import json
 import re
 import xml.etree.ElementTree
@@ -58,7 +59,7 @@ def kmlToJson(file, defaultPlacemark):
     return out
 
 def placemarkerToJson(placemarker, defaultPlacemark):
-    out = defaultPlacemark
+    out = copy.copy(defaultPlacemark)
     out["DisplayName"] = placemarker.find("{http://www.opengis.net/kml/2.2}name").text
     coords = placemarker.find(".//{http://www.opengis.net/kml/2.2}coordinates").text
     out["LongDeg"] = coords.split(",")[0]
