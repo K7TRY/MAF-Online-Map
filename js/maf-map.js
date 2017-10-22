@@ -6,16 +6,24 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 //var geojsonLayer = new L.GeoJSON.AJAX("/data/MAF_Served_Airstrips.geojson",
-var geojsonLayer = new L.GeoJSON.AJAX("/data/combined_maf_data.geojson", {
+var geojsonLayer = new L.GeoJSON.AJAX("../data/combined_maf_data.geojson", {
     onEachFeature: function popUp(feature, layer) {
-            var popup_msg = feature.properties.Name;
-            if (feature.properties.RwLength < 500) {
-                popup_msg = feature.properties.Name + " (short runway)";
-            }
-            layer.bindPopup(popup_msg);
+        let info = feature.properties;
+        let contentTitle = info.DisplayName + "</br>";
+        let content = "</br><ul>";
+        for(var key in info ){
+            content += "<li>"+ key + ":  "+ info[key] + "</li>";
+        }
+        content += "</ul>";
+
+        if (info.RwLength <  800) {
+
+            contentTitle = feature.properties.Name + " (short runway)";
+        }
+        layer.bindPopup(contentTitle + content);
     },
     pointToLayer: function(feature, latlng) {
-        if (feature.properties.MAFBase == "1") {
+        if (feature.properties.MAFBase === "1") {
             var maf_icon = L.icon({
                 iconUrl: "/images/airport.png",
                 iconSize:     [20, 20],
@@ -44,5 +52,5 @@ var geojsonLayer = new L.GeoJSON.AJAX("/data/combined_maf_data.geojson", {
             });
        }
     }
-});  
-geojsonLayer.addTo(map)
+});
+geojsonLayer.addTo(map);
