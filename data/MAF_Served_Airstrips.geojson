@@ -1,0 +1,60 @@
+[
+	  {
+		  "type": "Feature",
+		  "properties": {
+		      "Program": "EC",
+		      "AirstripID": "AS000001",
+		      "DisplayName": "SHL",
+		      "Name": "Shell",
+		      "ICAO": "SESM",
+		      "GPS": "NULL",
+		      "LatDeg": "-1.50472223758698",
+		      "LongDeg": "-78.0633316040039",
+		      "Variation": "NULL",
+		      "Elevation": "3415",
+		      "RwDirection": "12-20",
+		      "RwClass": "1",
+		      "RwSurface": "Paved",
+		      "RwLength": "1500",
+		      "TODA": "NULL",
+		      "RwWidth": "25",
+		      "Wet": "NULL",
+		      "Dry": "NULL",
+		      "Slope": "NULL",
+		      "MAFBase": "1"
+		    },
+		  "geometry": {
+			  "type": "Point",
+			  "coordinates": ["-78.0633316040039", "-1.50472223758698"]
+		}
+	},
+	  {
+		  "type": "Feature",
+		  "properties": {
+		      "Program": "EC",
+		      "AirstripID": "AS000002",
+		      "DisplayName": "MNT",
+		      "Name": "Montalvo",
+		      "ICAO": "SEMO",
+		      "GPS": "NULL",
+		      "LatDeg": "-2.06716656684875",
+		      "LongDeg": "-76.9761657714844",
+		      "Variation": "NULL",
+		      "Elevation": "1000",
+		      "RwDirection": "08\/26",
+		      "RwClass": "1",
+		      "RwSurface": "asphalt",
+		      "RwLength": "1480",
+		      "TODA": "NULL",
+		      "RwWidth": "24",
+		      "Wet": "NULL",
+		      "Dry": "NULL",
+		      "Slope": "0",
+		      "MAFBase": "0"
+		    },
+		  "geometry": {
+			  "type": "Point",
+			  "coordinates": ["-76.9761657714844", "-2.06716656684875"]
+		}
+	  }
+]

@@ -1,0 +1,9 @@
+@media(min-width:870px) {
+	#map { height: 800px; width: 1200px; }
+}
+@media(max-width:870px) {
+	#map { height: 337px; width: 450px; }
+}
+@media(max-width:500px) {
+	#map { height: 300px; width: 400px; }
+}
