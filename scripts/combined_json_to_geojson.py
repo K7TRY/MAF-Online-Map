@@ -11,6 +11,11 @@ def main():
     airports_geojson = []
 
     for airport in airports_json:
+        # Int-ify runway length
+        try:
+            airport["RwLength"] = int(airport["RwLength"])
+        except ValueError:
+            airport["RwLength"] = ""
         gja = {}
         gja["type"] = "Feature"
         gja["properties"] = airport
