@@ -5,8 +5,8 @@ var map = L.map('map', {
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
-//var geojsonLayer = new L.GeoJSON.AJAX("/data/MAF_Served_Airstrips.geojson",
-var geojsonLayer = new L.GeoJSON.AJAX("../data/combined_maf_data.geojson", {
+
+var geojsonLayer = new L.GeoJSON.AJAX("./data/combined_maf_data.geojson", {
     onEachFeature: function popUp(feature, layer) {
         let info = feature.properties;
         let contentTitle = info.DisplayName + "</br>";
